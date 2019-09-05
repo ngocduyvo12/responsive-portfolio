@@ -141,18 +141,10 @@ a {
 */
 @media screen and (max-width: 980px) {
 
-    /* The wrapper's width will be 600px */
-    .wrapper {
-      width: 100%;
-    }
-  
-    .container {
-      width: 80vw;
-    }
-    .main-section {
+    .workingregion {
       width: 50vw;
-      font-size: small;
-      margin-bottom: 100vh;
+      font-size: medium;
+      margin-left: 10vw;
     }
   
   }
