@@ -137,14 +137,105 @@ a {
 
 /*
   These rules take effect when the browser's width
-  is either 768px or less.
+  is either 980px or less.
 */
 @media screen and (max-width: 980px) {
 
     .workingregion {
-      width: 50vw;
+      width: 64vw;
       font-size: medium;
       margin-left: 10vw;
+
+    }
+    .topbar {
+        width: max-content;
+        padding-left: 14px;
+        padding-right: 8px;
+    }
+
+    .toppart {
+        width: 96vw;
+    }
+    div {
+        width: auto;
+
+    }
+  }
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 768px) {
+
+    .workingregion {
+      width: 92vw;
+      font-size: medium;
+      margin-left: 1px;
+      margin: auto;
+      padding-left: 1px;
+      padding-right: 0;
+    }
+    .topbar {
+        width: max-content;
+    }
+
+    .toppart {
+        width: 92vw;
+    }
+
+    div {
+        width: auto;
+        padding: auto;
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .port1pic {
+        width: 300px;
+    }
+  
+  }
+
+  /* These rules take effect when the browser's width
+  is either 640px or less.*/ 
+@media screen and (max-width: 640px) {
+
+    /* .container {
+        float: none;
+    } */
+
+    .workingregion {
+      width: 90vw;
+      font-size: medium;
+      margin-left: 1vw;
+      padding-left: auto;
+      margin: 0 20px;
+    }
+    .topbar {
+        width: max-content;
+    }
+
+    .toppart {
+        width: 93vw;
+    }
+
+    div {
+        width: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .container {
+        margin-left: 135px;
     }
   
   }
